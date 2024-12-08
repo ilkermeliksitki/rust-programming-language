@@ -44,3 +44,16 @@ Here is the output of the command:
 │   └── src
 │       └── main.rs
 ```
+
+`Cargo.toml` is a configuration file for your project. It contains all the metadata that Cargo needs to compile your project.
+
+```toml
+[package]
+name = "hello_cargo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+```
