@@ -27,4 +27,22 @@ rustc hello_world.rs
 > rust binary files are bigger than the `average` binary file size because of static linking,
 > debug information, standard library, etc.
 
+## Cargo
 
+Cargo is Rust's build system and package manager. Most Rustaceans use Cargo to manage their Rust projects because Cargo handles a lot of tasks for you, such as building your code, downloading the libraries your code depends on, and building those libraries.
+
+To create a new project, run:
+
+```bash
+cargo new hello_cargo
+```
+Here is the output of the command:
+
+```html
+<pre>
+├── hello_cargo
+│   ├── Cargo.toml
+│   └── src
+│       └── main.rs
+</pre>
+```
