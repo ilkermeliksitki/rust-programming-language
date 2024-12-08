@@ -72,7 +72,7 @@ what is `cargo build`?
 
 Here is the file structure after running `cargo build`:
 
-```html
+```
 .
 ├── Cargo.lock
 ├── Cargo.toml
@@ -87,7 +87,7 @@ Here is the file structure after running `cargo build`:
         ├── build
         ├── deps
         ├── examples
-        ├── hello_cargo
+        ├── hello_cargo         <== Executable file
         ├── hello_cargo.d
         └── incremental
 ```
