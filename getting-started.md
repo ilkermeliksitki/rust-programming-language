@@ -39,10 +39,8 @@ cargo new hello_cargo
 Here is the output of the command:
 
 ```html
-<pre>
 ├── hello_cargo
 │   ├── Cargo.toml
 │   └── src
 │       └── main.rs
-</pre>
 ```
