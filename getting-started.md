@@ -15,7 +15,7 @@ fn main() {
 
 To run the program, use the `rustc` command to compile the program and then run the resulting executable:
 
-```rust
+```bash
 rustc hello_world.rs
 ```
 
