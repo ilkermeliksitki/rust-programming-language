@@ -57,3 +57,37 @@ edition = "2021"
 
 [dependencies]
 ```
+
+> Cargo expects your source files to live inside the src directory.
+
+What is `cargo init`?
+
+`cargo init` is a command that creates a new Cargo project in a directory. It is similar to `cargo new`, but it creates the project in the current directory instead of creating a new directory for the project.
+
+### Building and Running a Cargo Project
+
+what is `cargo build`?
+
+`cargo build` is a command that compiles your Rust project. It creates an executable file in the target/debug directory.
+
+Here is the file structure after running `cargo build`:
+
+```html
+.
+├── Cargo.lock
+├── Cargo.toml
+├── src
+│   └── main.rs
+└── target
+    ├── .rustc_info.json
+    ├── CACHEDIR.TAG
+    └── debug
+        ├── .cargo-lock
+        ├── .fingerprint
+        ├── build
+        ├── deps
+        ├── examples
+        ├── hello_cargo
+        ├── hello_cargo.d
+        └── incremental
+```
