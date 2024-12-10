@@ -1,8 +1,8 @@
 You can use the `cargo expand` command to investigate macros.
 
 
-```bash
-melik@debian:~/rust-programming-language/macros$ cargo expand
+```
+$ cargo expand
     Checking macros v0.1.0 (~/rust-programming-language/macros)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.06s
 
